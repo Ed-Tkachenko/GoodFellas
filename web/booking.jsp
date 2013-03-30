@@ -23,7 +23,7 @@
                         [ Moving Calculator ]
                     </div>
                     <div class="headerWidget">
-                        [ Services ]
+                        [ Services & Rates]
                     </div>
                     <div class="headerWidget">
                         [ Book Now ]
