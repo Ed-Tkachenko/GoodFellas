@@ -117,7 +117,7 @@
 
             <div id="footer">
                 GoodFellas Moving, Inc. Licensing Information: MDPU #00000, DOT #0000000, ICC #0000000<br>
-                Copyright © 2013 GoodFellas Moving, Inc. Changed this. 
+                Copyright © 2013 GoodFellas Moving, Inc. 
             </div>
         </div>
     </body>
