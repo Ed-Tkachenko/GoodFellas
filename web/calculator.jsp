@@ -81,7 +81,7 @@
                         </tr>                      
                     </table>
                     <p>Extra Furnished Rooms:</p>
-                    <div>
+  
                         <table width="100%">
                             <tr>
                                 <td>
@@ -100,7 +100,7 @@
                             <tr>
                                 <td>
                                     <input type = Checkbox value="office" name = "office"  tabindex="8" />
-                                    <span class="label">office</span>
+                                    <span class="label">office@home</span>
                                 </td>
                                 <td>
                                     <input type = Checkbox value="garage" name = "garage"  tabindex="9" />
@@ -112,7 +112,7 @@
                                 </td>
                             </tr>
                         </table>
-
+                    <p><input type="submit" actiom=""></p>
                 </form>
 
             <div id="footer">
