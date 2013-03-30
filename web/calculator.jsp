@@ -81,7 +81,7 @@
                         </tr>                      
                     </table>
                     <p>Extra Furnished Rooms:</p>
-                    <div>
+  
                         <table width="100%">
                             <tr>
                                 <td>
@@ -112,7 +112,7 @@
                                 </td>
                             </tr>
                         </table>
-
+                    <p><input type="submit" actiom=""></p>
                 </form>
 
             <div id="footer">
