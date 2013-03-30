@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : Mar 21, 2013, 2:40:01 PM
-    Author     : Ded Mazai tesetttttttt
+    Author     : Ded Mazai tesetttttttttt
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
