@@ -4,12 +4,12 @@
     Author     : Ded Mazai
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%> 
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/goodfellas.css">
+        <link rel="stylesheet" type="text/css" href="goodfellas.css">
         <title>GoodFellas Moving</title>
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -40,7 +40,7 @@
                     <a href="#">
                         <img src="#" id="logo" alt="GoodFellas logo">
                     </a>
-                    <img src="#" id="logoText" alt="GoodFellas Moving">
+                    <img src="#"  id="logoText" alt="GoodFellas Moving">
                 </div>
             </div>
 

@@ -17,16 +17,16 @@
             <div id="header">
                 <div id="widgetBar">
                     <div class="headerWidget">
-                        <a href="languages.jsp">[ Language ]</a>
+                        <a href="languages.jsp"> Language </a>
                     </div>
                     <div class="headerWidget">
-                        <a href="calculator.jsp">[ Moving Calculator ]</a>
+                        <a href="calculator.jsp">Moving Calculator </a>
                     </div>
                     <div class="headerWidget">
-                        <a href="services.jsp">[ Services ]</a>
+                        <a href="services.jsp"> Services </a>
                     </div>
                     <div class="headerWidget">
-                        <a href="booking.jsp">[ Book Now ]</a>
+                        <a href="booking.jsp"> Book Now </a>
                     </div>
                     <a href="#">
                         <img src="#" id="logo" alt="GoodFellas logo">

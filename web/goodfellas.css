@@ -6,7 +6,7 @@
         Purpose of the stylesheet follows.
 */
 
-root { 
+root {   
     display: block;
 }
 
@@ -45,7 +45,7 @@ body {
     height: 50px;
     width: 850px;
     float: right;
-    background: #ccc;
+    background: brown ;
 }
 
 .headerWidget {
@@ -54,7 +54,8 @@ body {
     font-size: small;
     float: right;
     line-height: 25px;
-    background: #aaa;
+    background: yellow;
+    font-family: 'American Typewriter', Courier, monospace;
 }
 #footer {
     height: 60px;
@@ -74,6 +75,7 @@ body {
     width: 500px;
     float: left;
     background: #eee;
+    color: indigo;
 }
 
 
