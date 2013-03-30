@@ -100,7 +100,7 @@
                             <tr>
                                 <td>
                                     <input type = Checkbox value="office" name = "office"  tabindex="8" />
-                                    <span class="label">office</span>
+                                    <span class="label">office@home</span>
                                 </td>
                                 <td>
                                     <input type = Checkbox value="garage" name = "garage"  tabindex="9" />
