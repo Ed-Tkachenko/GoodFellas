@@ -47,6 +47,7 @@
                 We promise to show up on time and move your possessions to your satisfaction ...
                 We can move the most challenging items you might have. Whether you are moving from an apartment or an estate, across the street or across the state, 
                 we have just the team to meet your needs. No job is too big or too small.
+                GoodFellas good services.
 
             </div>
 
