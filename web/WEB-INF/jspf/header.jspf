@@ -1,0 +1,48 @@
+<%-- 
+    Document   : header
+    Created on : Mar 21, 2013, 2:40:01 PM
+    Author     : Ded Mazai
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/goodfellas.css">
+        <title>GoodFellas Moving</title>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/resources/demos/style.css" />
+        <script>
+            $(function() {
+                $( "#datepicker" ).datepicker();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <div id="widgetBar">
+                    <div class="headerWidget">
+                        <a href="languages.jsp">[ Language ]</a>
+                    </div>
+                    <div class="headerWidget">
+                        <a href="WEB-INF/view/calculator.jsp">[ Moving Calculator ]</a>
+                    </div>
+                    <div class="headerWidget">
+                        <a href="WEB-INF/view/services.jsp">[ Services ]</a>
+                    </div>
+                    <div class="headerWidget">
+                        <a href="/booking">[ Book Now ]</a>
+                    </div>
+                    <div class="headerWidget">
+                        <a href="/rates">[ Rates ]</a>
+                    </div>
+                    <a href="#">
+                        <img src="#" id="logo" alt="GoodFellas logo">
+                    </a>
+                    <img src="#" id="logoText" alt="GoodFellas Moving">
+                </div>
+            </div>

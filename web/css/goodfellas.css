@@ -1,0 +1,81 @@
+/* 
+    Document   : goodfellas
+    Created on : Mar 24, 2013, 9:49:33 AM
+    Author     : Ded Mazai
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1500px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #FFFF00
+}
+
+/*#main { background: #eee }*/
+#main { background-color: #993366}
+
+#header {
+    height: 250px;
+    background-color: #00FF00;
+}
+#logo {
+    height: 155px;
+    width: 155px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+#logoText {
+    float: left;
+    margin: 20px 0 0 70px;
+    /* font styles apply to text within alt tags */
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 48px;
+    background-color: #993366;
+}
+
+#widgetBar {
+    height: 50px;
+    width: 1500px;
+    float: right;
+    background-color: #FFFF99;
+    font-size: 20px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.headerWidget {
+    width: 194px;
+    margin: 20px 2px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+    background-color: #CCFFCC;
+}
+#footer {
+    height: 60px;
+    clear: left;
+    background-color: #FF99CC;
+}
+
+#indexLeftColumn {
+    height: 400px;
+    width: 500px;
+    float: left;
+    background-color: #CC99FF;
+}
+
+#indexRightColumn {
+    height: 400px;
+    width: 1000px;
+    float: left;
+    background-color: #0099FF;
+}
+
