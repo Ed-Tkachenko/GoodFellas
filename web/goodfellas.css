@@ -45,7 +45,7 @@ body {
     height: 50px;
     width: 850px;
     float: right;
-    background: brown ;
+    background: cyan ;
 }
 
 .headerWidget {
@@ -54,7 +54,7 @@ body {
     font-size: small;
     float: right;
     line-height: 25px;
-    background: yellow;
+    
     font-family: 'American Typewriter', Courier, monospace;
 }
 #footer {
@@ -75,7 +75,7 @@ body {
     width: 500px;
     float: left;
     background: #eee;
-    color: red;
+    color: blue;
 }
 
 
