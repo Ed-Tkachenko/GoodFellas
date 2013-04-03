@@ -1,7 +1,7 @@
 <%-- 
     Document   : calculator
     Created on : Mar 24, 2013, 9:45:47 AM
-    Author     : Ded Mazai
+    Author     : Ded Miloud
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%> 
