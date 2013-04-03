@@ -26,16 +26,16 @@
             <div id="header">
                 <div id="widgetBar">
                     <div class="headerWidget">
-                        [ Language ]
+                         Language 
                     </div>
                     <div class="headerWidget">
-                        [ Moving Calculator ]
+                        Moving Calculator 
                     </div>
                     <div class="headerWidget">
-                        [ Services ]
+                         Services 
                     </div>
                     <div class="headerWidget">
-                        [ Book Now ]
+                         Book Now 
                     </div>
                     <a href="#">
                         <img src="#" id="logo" alt="GoodFellas logo">

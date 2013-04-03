@@ -45,7 +45,7 @@ body {
     height: 50px;
     width: 850px;
     float: right;
-    background: cyan ;
+    background: navy ;
 }
 
 .headerWidget {
@@ -54,9 +54,13 @@ body {
     font-size: small;
     float: right;
     line-height: 25px;
-    
+    color:yellow;
     font-family: 'American Typewriter', Courier, monospace;
 }
+
+
+
+
 #footer {
     height: 60px;
     clear: left;
