@@ -11,6 +11,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.ejb.EJB;
+import session.CustomerFacade;
 
 /**
  *
@@ -18,6 +20,16 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(name = "ControllerServlet", loadOnStartup = 1, urlPatterns = {"/booking", "/calculator", "/confirmation", "/rates", "/services"})
 public class ControllerServlet extends HttpServlet {
+
+    @EJB
+    private CustomerFacade customerFacade;
+
+    @Override
+    public void init() throws ServletException {
+
+        // store category list in servlet context
+        getServletContext().setAttribute("customers", customerFacade.findAll());
+    }
 
     /**
      * Processes requests for both HTTP
@@ -47,7 +59,6 @@ public class ControllerServlet extends HttpServlet {
 //            out.close();
 //        }
 //    }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP
@@ -67,7 +78,7 @@ public class ControllerServlet extends HttpServlet {
         if (userPath.equals("/rates")) {
             // TODO: Implement rates page request
             userPath = "/rates";
-        // if services page is requested
+            // if services page is requested
         } else if (userPath.equals("/services")) {
             // TODO: Implement services page request
             userPath = "/services";
@@ -101,11 +112,15 @@ public class ControllerServlet extends HttpServlet {
         if (userPath.equals("/booking")) {
             // TODO: Implement booking request
             userPath = "/booking";
-        // if calculator page is requested
+            // if calculator page is requested
         } else if (userPath.equals("/calculator")) {
             // TODO: Implement calculator page request
             userPath = "/calculator";
-        // if confirmation page is requested
+            // if confirmation page is requested
+        } else if (userPath.equals("/contact")) {
+            // TODO: Implement contact page request
+            userPath = "/contact";
+            // if confirmation page is requested
         } else if (userPath.equals("/confirmation")) {
             // TODO: Implement confirmation page request
             userPath = "/confirmation";
@@ -119,7 +134,6 @@ public class ControllerServlet extends HttpServlet {
             ex.printStackTrace();
         }
     }
-
     /**
      * Returns a short description of the servlet.
      *

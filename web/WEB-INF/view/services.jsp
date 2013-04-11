@@ -1,5 +1,5 @@
 <%-- 
-    Document   : services
+    Document   : services information view
     Created on : Mar 24, 2013, 9:46:42 AM
     Author     : Ded Mazai
 --%>

@@ -67,14 +67,16 @@ body {
 
 #indexLeftColumn {
     height: 400px;
-    width: 500px;
+    width: auto;
+    max-width:50%;;
     float: left;
     background-color: #CC99FF;
 }
 
 #indexRightColumn {
     height: 400px;
-    width: 1000px;
+    width: auto;
+    max-width:50%;;
     float: left;
     background-color: #0099FF;
 }

@@ -1,5 +1,5 @@
 <%-- 
-    Document   : rates
+    Document   : rates information view
     Created on : Mar 24, 2013, 9:46:13 AM
     Author     : Ded Mazai
 --%>
