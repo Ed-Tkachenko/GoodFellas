@@ -8,6 +8,6 @@
     <description>Connects to goodfellas database</description>
     <property name="URL" value="jdbc:mysql://localhost:3306/goodfellasdb?zeroDateTimeBehavior=convertToNull"/>
     <property name="User" value="root"/>
-    <property name="Password" value="password"/>
+    <property name="Password" value="adalberto02"/>
   </jdbc-connection-pool>
 </resources>
