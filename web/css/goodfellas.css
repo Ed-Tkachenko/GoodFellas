@@ -70,7 +70,7 @@ body {
     width: auto;
     max-width:50%;;
     float: left;
-    background-color: #CC99FF;
+    background-color: #F9FBFB;
 }
 
 #indexRightColumn {
@@ -78,6 +78,7 @@ body {
     width: auto;
     max-width:50%;;
     float: left;
-    background-color: #0099FF;
+    background-color: #FF0080;
 }
+
 
