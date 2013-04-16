@@ -3,11 +3,6 @@
     Created on : Mar 24, 2013, 9:45:47 AM
     Author     : Ded Mazai
 --%>
-<div id="indexLeftColumn">
-    <div id="welcomeText">
-        <p>[ Social plug-ins ]</p>
-    </div>             
-</div>
 <div id="indexRightColumn">
     <form action="calculateMovingCost" method="post">
         <p>Moving Cost Calculator</p>

@@ -7,13 +7,22 @@
     </session-config>
     <jsp-config>
         <jsp-property-group>
-            <description>header and footer settings</description>
+            <description>header and footer settings for front end</description>
             <url-pattern>/index.jsp</url-pattern>
             <url-pattern>/WEB-INF/view/*</url-pattern>
             <include-prelude>/WEB-INF/jspf/header.jspf</include-prelude>
             <include-coda>/WEB-INF/jspf/footer.jspf</include-coda>
         </jsp-property-group>
+        <jsp-property-group>
+            <description>JSP configuration for the admin console</description>
+            <url-pattern>/admin/index.jsp</url-pattern>
+            <url-pattern>/admin/login.jsp</url-pattern>
+            <url-pattern>/admin/error.jsp</url-pattern>
+            <include-prelude>/admin/jspf/header.jspf</include-prelude>
+            <include-coda>/admin/jspf/footer.jspf</include-coda>
+        </jsp-property-group>
     </jsp-config>
+    
     <resource-ref>
         <description>Connects to database for Goodfellas application</description>
         <res-ref-name>jdbc/goodfellas</res-ref-name>

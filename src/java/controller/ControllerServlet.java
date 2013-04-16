@@ -13,22 +13,38 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.ejb.EJB;
 import session.CustomerFacade;
-
+/*import session.MovingFacade;
+import session.AddressFacade;
+import session.CustomersorderFacade;
+*/
 /**
  *
  * @author Ded Mazai
  */
-@WebServlet(name = "ControllerServlet", loadOnStartup = 1, urlPatterns = {"/booking", "/calculator", "/confirmation", "/rates", "/services"})
+@WebServlet(name = "ControllerServlet", 
+        loadOnStartup = 1, 
+        urlPatterns = {"/booking", 
+            "/calculator", 
+            "/confirmation", 
+            "/rates", 
+            "/managerview", 
+            "/services"})
 public class ControllerServlet extends HttpServlet {
 
     @EJB
     private CustomerFacade customerFacade;
+//    private MovingFacade movingFacade;
+//    private AddressFacade addressFacade;
+//    private CustomersorderFacade customersorderFacade;
 
     @Override
     public void init() throws ServletException {
 
-        // store category list in servlet context
+        // store customer list in servlet context
         getServletContext().setAttribute("customers", customerFacade.findAll());
+ //       getServletContext().setAttribute("movings", movingFacade.findAll());
+//        getServletContext().setAttribute("address", addressFacade.findAll());
+//        getServletContext().setAttribute("customersorder", customersorderFacade.findAll());
     }
 
     /**
@@ -116,7 +132,7 @@ public class ControllerServlet extends HttpServlet {
         } else if (userPath.equals("/calculator")) {
             // TODO: Implement calculator page request
             userPath = "/calculator";
-            // if confirmation page is requested
+            // if contact & address info page is requested
         } else if (userPath.equals("/contact")) {
             // TODO: Implement contact page request
             userPath = "/contact";
