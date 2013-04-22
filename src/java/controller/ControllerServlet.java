@@ -19,7 +19,7 @@ import session.CustomersorderFacade;
 */
 /**
  *
- * @author Ded Mazai
+ * @author Ded Mazai 
  */
 @WebServlet(name = "ControllerServlet", 
         loadOnStartup = 1, 
@@ -28,7 +28,8 @@ import session.CustomersorderFacade;
             "/confirmation", 
             "/rates", 
             "/managerview", 
-            "/services"})
+            "/services",
+            "/index"}) 
 public class ControllerServlet extends HttpServlet {
 
     @EJB
@@ -132,6 +133,10 @@ public class ControllerServlet extends HttpServlet {
         } else if (userPath.equals("/calculator")) {
             // TODO: Implement calculator page request
             userPath = "/calculator";
+            // if Main page is requested
+       } else if (userPath.equals("index.jsp")) {
+            // TODO: Implement main page request
+            userPath = "index.jsp";
             // if contact & address info page is requested
         } else if (userPath.equals("/contact")) {
             // TODO: Implement contact page request
@@ -143,6 +148,8 @@ public class ControllerServlet extends HttpServlet {
         }
         // use RequestDispatcher to forward request internally
         String url = "/WEB-INF/view" + userPath + ".jsp";
+        
+        
 
         try {
             request.getRequestDispatcher(url).forward(request, response);

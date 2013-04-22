@@ -4,8 +4,8 @@
     Author     : Ded Mazai
 --%>
 <div id="indexRightColumn">
-    <form actiom="<c:url value='contact'/>" method="post">
-        <p>Moving details gathering form</p>
+    <form id="booknow" actiom="<c:url value='contact'/>" method="post">
+        <d>Moving details gathering form</d>
         <table>
             <tr>
                 <td>Date of Moving</td>
