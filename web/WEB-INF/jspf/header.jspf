@@ -33,7 +33,7 @@
                     </div>
                     --%>
                     <nav class="headerWidget">
-                        <a href="<c:url value='calculator'/>"><b> Moving Calculator</b> </a>
+                        <a href="<c:url value='calculator'/>"> Moving Calculator </a>
                     </nav>
                     <nav class="headerWidget">
                         <a href="<c:url value='services'/>"> Services </a>
