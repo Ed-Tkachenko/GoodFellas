@@ -26,10 +26,10 @@
          <body>
         <div id="top" >
 	<embed width="728" height="90" flashvars="unique_id=_CIN1365456586080&amp;ArmApi=armapi_a1_a1&amp;ArmClickUrl=http://clk.atdmt.com/go/429765943/direct;wi.728;hi.90;ai.318036411;ct.$num$/01/&amp;ArmClickToken=$num$" src="HTTP://cdn.atdmt.com/ds/CJCNTCINGCIN/153492_Refurb_Big_040513/Refurb_Big_153492_728x90_040513.swf?ver=1&amp;clickTag1=http%3A%2F%2Fr1.ace.advertising.com%2Fclick%2Fsite%3D0000867263%2Fmnum%3D0001359185%2Fcstr%3D47270272%3D_5175ed18%2C5326363118%2C867263_1359185_1183_0%2C1_%2Fxsxdata%3D%24XSXDATA%2Fbnum%3D47270272%2Foptn%3D64%3Ftrg%3Dhttp://clk.atdmt.com/go/429765943/direct;wi.728;hi.90;ai.318036411;ct.1/01&amp;clickTag=http%3A%2F%2Fr1.ace.advertising.com%2Fclick%2Fsite%3D0000867263%2Fmnum%3D0001359185%2Fcstr%3D47270272%3D_5175ed18%2C5326363118%2C867263_1359185_1183_0%2C1_%2Fxsxdata%3D%24XSXDATA%2Fbnum%3D47270272%2Foptn%3D64%3Ftrg%3Dhttp://clk.atdmt.com/go/429765943/direct;wi.728;hi.90;ai.318036411;ct.1/01" wmode="opaque" base="HTTP://cdn.atdmt.com/ds/CJCNTCINGCIN/" pluginspace="HTTP://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" loop="true" salign="LT" quality="high" allowscriptaccess="always">		
-        <p id="topmainheader">GOODFELLAS MOVING COMPANY </p>                                                  
+        <p id="topmainheader">GOODFELLAS MOVING COMPANY</p>                                                   
                         
                         
-        </div>
+        </div> 
              
         <div id="main">
             <div id="header">
@@ -40,23 +40,23 @@
                     </div>
                     --%>
                     <nav class="headerWidget">
-                        <a href="<c:url value='calculator'/>"> Moving Calculator </a>
+                        <a href="<c:url value='calculator'/>"><b> Moving Calculator</b> </a>
                     </nav>
                     <nav class="headerWidget">
-                        <a href="<c:url value='services'/>"> Services </a>
+                        <a href="<c:url value='services'/>"><b> Services</b> </a>
                     </nav>
                     <nav class="headerWidget">
-                        <a href="<c:url value='booking'/>"> Book Now </a>
+                        <a href="<c:url value='booking'/>"> <b>Book Now</b> </a>
                     </nav>
                     <nav class="headerWidget"> 
-                        <a href="<c:url value='rates'/>"> Rates</a>
+                        <a href="<c:url value='rates'/>"><b> Rates</b></a>
                     </nav>
                     <a href="<c:url value='services'/>">
                         <img src="#" id="logo" alt="">
                     </a>
                      <nav class="headerWidget">
-                     <a href="<c:url value='index.jsp'/>">
-                      GoodFellas Moving  
+                     <a href="<c:url value='index.jsp'/>"><b>
+                             GoodFellas Moving  </b>
                     </a>
                      </nav>
                 </div>
@@ -66,9 +66,6 @@
             <div id="indexLeftColumn">
                 <div id="welcomeText">
                  <img class="intro-image" />
-                 
-          <a href="http://www.facebook.com" target="_blank"><img src="facebookLogo.png" alt="Facebook" /></a>
-          <a href="https://twitter.com" target="_blank"><img src="twitterLogo.png" alt="Twitter" /></a>
-               <a href="http://www.youtube.com" target="_blank"><img src="youtubeLogo.png" alt="YouTube" /></a>
+                          
                 </div>             
             </div>

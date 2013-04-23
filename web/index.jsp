@@ -6,7 +6,7 @@
  
 <div id="indexLeftColumn">
     
-    <div id="welcomeText">
+    <div id="welcomeText">  
     
     </div>             
 </div>

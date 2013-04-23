@@ -1,9 +1,14 @@
 <%-- Contains copyright and licensing information --%> 
+
+
+
 <div id="footer">
-    
+  <a href="http://www.facebook.com" target="_blank"><img src="facebookLogo.png" alt="Facebook" /></a>
+          <a href="https://twitter.com" target="_blank"><img src="twitterLogo.png" alt="Twitter" /></a>
+               <a href="http://www.youtube.com" target="_blank"><img src="youtubeLogo.png" alt="YouTube" /></a>  
 GoodFellas Moving, Inc. Licensing Information: MDPU #00000, DOT #0000000, ICC #0000000<br>
                      Copyright © 2013 GoodFellas Moving, Inc. 
 </div>
 </div>
 </body>
-</html>
+</html> 
