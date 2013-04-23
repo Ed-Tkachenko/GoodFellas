@@ -101,8 +101,13 @@
     }
 
 </script>
+<div id="indexLeftColumn">
+    
+                
+</div>
 
-<div id="indexRightColumn"> 
+<div id="indexRightColumn">
+     
     <form id="booknow" action="calculateMovingCost" method="post">
         <p>Moving Cost Calculator</p>
         <table>
@@ -178,14 +183,16 @@
         </table>
 
         <p><input type="button" value="GET A QUOTE NOW!" onclick = "calcRoute();" ></p>
-        <div id="price"> </div>
+        
+           <div id="price"> </div>
         <body onload="initialize();">
         <center>
             <div id="map_canvas" style="width:400px; height:250px"></div>
-        </center>
+             </center>   
         <form action="#" onsubmit="showLocation();
 
         return false;">  </form>
+    
         </body>
     </form>
 </div>
