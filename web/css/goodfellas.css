@@ -1,0 +1,134 @@
+/* 
+    Document   : goodfellas.css
+    Created on : Apr 22, 2013, 11:56:07 AM
+    Author     : Ded Mazai
+    Description: layout for GF site
+*/
+
+root { 
+    display: block;
+}
+html,
+body {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#a7a09a;
+
+}
+#container
+{
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+#header
+{
+    background: #ffffff;
+    padding: 20px;
+}
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+    float: left;
+    width: 100%;
+    background: #333;
+}
+
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#navigation li a
+{
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content-container
+{
+    float: left;
+    width: 100%;
+    background: #f4fff8; 
+}
+
+#content
+{
+    clear: left;
+    float: left;
+    width: 60%;
+    padding: 20px 0;
+    margin: 0 0 0 4%;
+    display: inline;
+}
+#content p {
+    
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#content h2 { 
+    margin: 0; 
+    font-family: serif;
+    font-size: 45px;
+}
+
+#aside
+{
+    float: right;
+    width: 26%;
+    padding: 20px 0;
+    margin: 0 3% 0 0;
+    display: inline;
+}
+#aside a:link {
+    color: #000000;
+    text-decoration: none;
+}
+#aside a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+#aside a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#aside a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#aside h3 { margin: 0; }
+
+#footer
+{
+    clear: left;
+    background: #ffffff;
+    text-align: center;
+    padding: 20px;
+    height: 1%;
+}
+#loginBox {
+    width: 300px;
+    margin: 0 auto;
+    border: solid 1px #f5eabe;
+    background-color: #f5eabe;
+    border-radius: 4px;
+}

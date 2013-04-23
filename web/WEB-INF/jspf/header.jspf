@@ -1,0 +1,55 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
+<%-- 
+    Document   : header
+    Created on : Mar 21, 2013, 2:40:01 PM
+    Author     : Ded Mazai
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/goodfellas.css">
+        <title>GoodFellas Moving</title>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <link rel="stylesheet" href="/resources/demos/style.css" />
+        <script>
+            $(function() {
+                $("#datepicker").datepicker();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <a href="admin/index.jsp">
+                    <img src="images/goodfellas_logo.png">
+                </a>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="<c:url value='calculator'/>">[ Moving Calculator ]</a></li>
+                    <li><a href="<c:url value='services'/>">[ Services ]</a></li>
+                    <li><a href="<c:url value='booking'/>">[ Book Now ]</a></li>
+                    <li><a href="<c:url value='rates'/>">[ Rates ]</a></li>
+                </ul>
+            </div>
+            <div id="content-container">
+                <div id="aside">
+                    <li>
+                        <h3>
+                            <a href="http://www.facebook.com" target="_blank">Visit our FaceBook.<br>
+                                We are open to public!<br> Discussions, events, questions and more </a>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <a href="http://www.yelp.com" target="_blank">Find us on Yelp.<br>
+                                Read our last reviews on Yelp.<br> Add yours</a>
+                        </h3>
+                    </li>          
+                </div>
